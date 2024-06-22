@@ -38,7 +38,7 @@ In this case we are going to run llama3 and gemma
 
 ollama run llama3
 
-ollama run phi3:mini
+ollama run gemma:7b
 
 ```
 
@@ -62,7 +62,7 @@ curl http://localhost:11434/api/generate -d '{
 
 curl http://localhost:11434/api/generate -d '{
 
-"model": "phi3",
+"model": "gemma:7b",
 
 "prompt":"Hi"
 
