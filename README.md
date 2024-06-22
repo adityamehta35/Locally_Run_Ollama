@@ -1,4 +1,8 @@
-# Running Llama 3 and Phi 3 Mini with Ollama
+# Running Llama 3 and Gemma with Ollama
+
+## Video Tutorial:
+
+https://youtu.be/Eu-VUAmpe6U
 
 Please refer to these instructions on how to set up and run the Llama 3 and Phi 3 Mini large language models using the Ollama library.
 
