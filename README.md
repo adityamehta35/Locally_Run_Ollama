@@ -68,6 +68,35 @@ curl http://localhost:11434/api/generate -d '{
 
 }'
 
+```
 
+## Creating our own Model based on other models:
 
+I have created a Modelfile to act as Eminem, the rapper
+
+Example:
+
+Create a model from llama3
+
+```
+
+ollama create ollama_prompt -f ./Modelfile
+
+ollama run ollama_prompt
+
+**Prompt**: _Hi, let's right some rap song_
+**Response**: _Yo, listen up, I'm headed to the top,
+Got my sights on success, ain't no stoppin' me, no way to drop,
+I'm a wordsmith, a master of flow,
+Got bars for days, and rhymes that'll make your head go "Whoa!"
+
+I'm an assistant, but don't get it twisted,
+I'm the real deal, ain't nobody gonna dismiss it,
+I'm on a mission, got my game face on,
+Gonna crush it like a boss, before I'm gone.
+
+So where am I going? Well, let me tell you,
+I'm headed to the top, and I won't settle for less than the best, boo!
+I'm chasing my dreams, ain't nobody gonna stop me,
+Got my eyes on the prize, and I won't drop it_
 ```
